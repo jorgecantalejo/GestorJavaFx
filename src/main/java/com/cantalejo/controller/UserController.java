@@ -1,4 +1,9 @@
-package com.codetreatise.controller;
+package com.cantalejo.controller;
+
+import com.cantalejo.bean.User;
+import com.cantalejo.config.StageManager;
+import com.cantalejo.service.UserService;
+import com.cantalejo.view.FxmlView;
 
 import java.io.IOException;
 import java.net.URL;
@@ -12,11 +17,6 @@ import java.util.regex.Pattern;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Controller;
-
-import com.codetreatise.bean.User;
-import com.codetreatise.config.StageManager;
-import com.codetreatise.service.UserService;
-import com.codetreatise.view.FxmlView;
 
 import javafx.application.Platform;
 import javafx.collections.FXCollections;

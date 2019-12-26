@@ -1,12 +1,12 @@
-package com.codetreatise.config;
+package com.cantalejo.config;
 
 import static org.slf4j.LoggerFactory.getLogger;
+
+import com.cantalejo.view.FxmlView;
 
 import java.util.Objects;
 
 import org.slf4j.Logger;
-
-import com.codetreatise.view.FxmlView;
 
 import javafx.application.Platform;
 import javafx.scene.Parent;

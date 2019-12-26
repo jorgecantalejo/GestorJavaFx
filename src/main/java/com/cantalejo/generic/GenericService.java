@@ -1,4 +1,4 @@
-package com.codetreatise.generic;
+package com.cantalejo.generic;
 
 import java.util.List;
 

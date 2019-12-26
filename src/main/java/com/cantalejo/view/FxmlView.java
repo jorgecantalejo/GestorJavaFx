@@ -1,4 +1,4 @@
-package com.codetreatise.view;
+package com.cantalejo.view;
 
 import java.util.ResourceBundle;
 

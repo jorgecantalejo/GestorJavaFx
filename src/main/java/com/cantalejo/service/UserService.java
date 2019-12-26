@@ -1,7 +1,7 @@
-package com.codetreatise.service;
+package com.cantalejo.service;
 
-import com.codetreatise.bean.User;
-import com.codetreatise.generic.GenericService;
+import com.cantalejo.bean.User;
+import com.cantalejo.generic.GenericService;
 
 public interface UserService extends GenericService<User> {
 

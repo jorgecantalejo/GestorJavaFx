@@ -1,9 +1,9 @@
-package com.codetreatise.repository;
+package com.cantalejo.repository;
+
+import com.cantalejo.bean.User;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import com.codetreatise.bean.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

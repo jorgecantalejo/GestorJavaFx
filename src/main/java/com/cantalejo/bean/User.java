@@ -1,4 +1,4 @@
-package com.codetreatise.bean;
+package com.cantalejo.bean;
 
 import java.time.LocalDate;
 

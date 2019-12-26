@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.codetreatise.config;
+package com.cantalejo.config;
+
+import com.cantalejo.logging.ExceptionWriter;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -14,8 +16,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Scope;
-
-import com.codetreatise.logging.ExceptionWriter;
 
 @Configuration
 public class AppJavaConfig {

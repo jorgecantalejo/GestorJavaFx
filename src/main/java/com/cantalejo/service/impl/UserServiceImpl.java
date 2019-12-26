@@ -1,13 +1,13 @@
-package com.codetreatise.service.impl;
+package com.cantalejo.service.impl;
+
+import com.cantalejo.bean.User;
+import com.cantalejo.repository.UserRepository;
+import com.cantalejo.service.UserService;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.codetreatise.bean.User;
-import com.codetreatise.repository.UserRepository;
-import com.codetreatise.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {
